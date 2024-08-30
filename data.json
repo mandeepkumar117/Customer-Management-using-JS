@@ -1,0 +1,100 @@
+{
+  "customer": [
+    {
+      "id": "537c",
+      "name": "Mandeep kumar Chaudhary",
+      "mobile": "9006970702",
+      "email": "mandeepkumar4567852@gmail.com",
+      "img": "https://m.media-amazon.com/images/I/71REplb5oZL._SX679_.jpg",
+      "status": "jgkguhkhloi"
+    },
+    {
+      "id": "7bdd",
+      "name": "Mandeep kumar Chaudhary",
+      "mobile": "9006970702",
+      "email": "mandeepkumar4567852@gmail.com",
+      "img": "https://m.media-amazon.com/images/I/71REplb5oZL._SX679_.jpg",
+      "status": "jgkguhkhloi"
+    },
+    {
+      "id": "0ea5",
+      "name": "Mandeep kumar Chaudhary",
+      "mobile": "9006970702",
+      "email": "mandeepkumar4567852@gmail.com",
+      "img": "https://m.media-amazon.com/images/I/71REplb5oZL._SX679_.jpg",
+      "status": "ksjdchsdk"
+    },
+    {
+      "id": "3ec7",
+      "name": "Mandeep kumar Chaudhary",
+      "mobile": "9006970702",
+      "email": "mandeepkumar4567852@gmail.com",
+      "img": "https://m.media-amazon.com/images/I/71REplb5oZL._SX679_.jpg",
+      "status": "arrived"
+    },
+    {
+      "id": "44b5",
+      "name": "rahul",
+      "mobile": "9006970702",
+      "email": "mandeepkumar4567852@gmail.com",
+      "img": "document.querySelector('#img').value=response.img;",
+      "status": "arrived"
+    }
+  ],
+  "product": [
+    {
+      "id": "0871",
+      "product_name": "Mandeep kumar Chaudhary",
+      "product_price": "89000",
+      "payment": "sdchsdku",
+      "status": "ksjdchsdk"
+    },
+    {
+      "id": "c655",
+      "product_name": "apple mobile",
+      "product_price": "89000",
+      "payment": "paid",
+      "status": "arrive"
+    },
+    {
+      "id": "6f17",
+      "product_name": "MANDEEP KUMAR ",
+      "product_price": "gfuu",
+      "payment": "hjgiukkbk",
+      "status": "ljnlnnl"
+    },
+    {
+      "id": "ff7b",
+      "product_name": "apple mobile",
+      "product_price": "89000",
+      "payment": "paid",
+      "status": "arrived"
+    }
+  ],
+  "customerdetails": [
+    {
+      "id": "c4cf",
+      "name": "biil smith",
+      "hotel": "fantsi",
+      "mobile": "900697070265466",
+      "email": "sdsdwefdwefe@eragev",
+      "address": "delhi",
+      "room": "345",
+      "price": "89000",
+      "adhar": "5451558845",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.7HOtJ3fDJ6wj8r3ZQNDQnwHaFS&pid=Api&P=0&h=180"
+    },
+    {
+      "name": "Mandeep kumar Chaudhary",
+      "hotel": "hotel  vishnu bilash",
+      "mobile": "9006970702",
+      "email": "mandeepkumar4567852@gmail.com",
+      "address": "new market",
+      "room": "125",
+      "price": "1200",
+      "adhar": "4431105654",
+      "image": "https://tse2.mm.bing.net/th?id=OIP.Zj1ipLlmaji9t1IFHij3ugHaLF&pid=Api&P=0&h=180",
+      "id": "b0bc"
+    }
+  ]
+}
