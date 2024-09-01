@@ -2,36 +2,48 @@ const addproduct=()=>{
     let select=document.querySelector('.form');
     select.style.display="block";
 }
-const order=()=>{
-    
-    let name=document.querySelector('#name').value;
-    let mobile=document.querySelector('#mobile').value;
-    let email=document.querySelector('#email').value;
-    let img=document.querySelector('#img').value;
-    let status=document.querySelector('#status').value;
-    
+const order = async () => {
+    console.log("order function called");
   
-
-    let customerdata={
-       "name":name,
-       "mobile":mobile,
-       "email":email,
-       "img":img,
-       "status":status
-        }
-     console.log(customerdata);
-    // window.alert(customerdata);
-
-    let url = 'https://customer-management-json-git-613a48-mandeep-chaudharys-projects.vercel.app/customer';
-    let method= {
-        method:"POST",
-        header:{
-            'Content-Type':'application/json'
-        },
-        body:JSON.stringify(customerdata)
+    const name = document.querySelector("#name").value.trim();
+    const mobile = document.querySelector("#mobile").value.trim();
+    const email = document.querySelector("#email").value.trim();
+    const img = document.querySelector("#img").value.trim();
+    const status = document.querySelector("#status").value.trim();
+  
+    if (!name || !mobile || !email || !img || !status) {
+      alert("Please fill in all fields.");
+      return;
     }
-    fetch(url,method);
-}
+  
+    const customerData = {
+      name,
+      mobile,
+      email,
+      img,
+      status,
+    };
+  
+    alert("Customer data: " + JSON.stringify(customerData));
+    // alert(customerData);
+  
+    let method = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(customerData),
+    };
+  
+    const url = "https://customer-management-json-git-613a48-mandeep-chaudharys-projects.vercel.app/customer";
+    fetch(url, method);
+  
+    try {
+      
+    } catch (error) {
+      
+    }
+  };
 
 
 ( async function(){
