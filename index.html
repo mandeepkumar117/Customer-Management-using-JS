@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adnin dashbord</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="form" id="productform">
+        <form >
+            <div><center><input type="text" placeholder="Product Name" id="name"></center></div>
+            <div><center><input type="text" placeholder="Product Price" id="price"></center></div>
+            <div><center><input type="text" placeholder="Payment Status" id="payment"></center></div>
+            <div><center><input type="text" placeholder="Delivery Status" id="status"></center></div>
+            <div><center><button onclick="addProduct()">submit</button></center></div>
+            <div><center><button onclick="cancel()">Cancel</button></center></div>
+            
+        </form>
+    </div>
+    
+    <div id="website">
+        <div id="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><img src="https://wallpapers.com/images/hd/south-hero-portrait-shot-csf16krd3gvn9hv8.jpg" alt=""></span>
+                            <!-- <span class="title">Apple</span> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-house"></i></span>
+                            <span class="title">Dashbord</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./customer.html">
+                            <span class="icon"><i class="fa-solid fa-users"></i></span>
+                            <span class="title">Customer</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./message.html">
+                            <span class="icon"><i class="fa-brands fa-rocketchat"></i></span>
+                            <span class="title">Message</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-question"></i></span>
+                            <span class="title">Help</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./history.html">
+                            <span class="icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                            <span class="title">History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./hotel.html">
+                            <span class="icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                            <span class="title">Hotel Reception</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./customer_history.html">
+                            <span class="icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                            <span class="title">customer History</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                            <span class="title">Password</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-right-to-bracket"></i></span>
+                            <span class="title">Sign Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ==========================main============================================= -->
+    
+            <div class="main">
+                <div class="topbar">
+                    <div class="toggle">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="search">
+                        <label>
+                            <input type="text" placeholder="Search here">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </label>
+                    </div>
+                    <div class="user">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.Q99cciNfP5yyAjLxVVjSHAHaMo&pid=Api&P=0&h=180" alt="">
+                    </div>
+                </div>
+    
+                <!-- ==============================card=========================== -->
+    
+                <div class="cardbox">
+                    <div class="card">
+                        <div>
+                            <div class="numbers">1,504</div>
+                            <div class="cardName">Daily views</div>
+                        </div>
+                        <div class="iconbox">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">80</div>
+                            <div class="cardName">Sales</div>
+                        </div>
+                        <div class="iconbox">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">284</div>
+                            <div class="cardName">Coments</div>
+                        </div>
+                        <div class="iconbox">
+                            <i class="fa-regular fa-comment"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <div class="numbers">$7.842</div>
+                            <div class="cardName">Earning</div>
+                        </div>
+                        <div class="iconbox">
+                            <i class="fa-solid fa-money-bill"></i>
+                        </div>
+                    </div>
+                  </div>
+    
+                  <!-- ===================================order details list=============================== -->
+    
+                  <div class="details">
+                    <div class="recentorders">
+                        <div class="cardleader">
+                            <h2>Recent Order</h2>
+                            <button class="btn" onclick="showform()" id="addorder">Add Order</button>
+                        </div>
+                        <table id="showtable">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Price</td>
+                                    <td>Payment</td>
+                                    <td>Status</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- ================================new cortomer============================ -->
+    
+                    <div class="recentcustomers">
+                        <div class="cardleader">
+                            <h2>Recent Customer</h2>
+                        </div>
+                        <table>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src="https://tse4.mm.bing.net/th?id=OIP.xJG7AMYi23nA89eeaBx7gAHaE8&pid=Api&P=0&h=180" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Aksay kumar <br> <span>India</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src="https://tse4.mm.bing.net/th?id=OIP.YyV27QlgLrmh7se_X7_66QHaE8&pid=Api&P=0&h=180" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Sharukh Khan <br> <span>India</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src="https://tse4.mm.bing.net/th?id=OIP.xJG7AMYi23nA89eeaBx7gAHaE8&pid=Api&P=0&h=180" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Aksay kumar <br> <span>India</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src="https://tse4.mm.bing.net/th?id=OIP.YyV27QlgLrmh7se_X7_66QHaE8&pid=Api&P=0&h=180" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Sharukh Khan <br> <span>India</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src="https://tse4.mm.bing.net/th?id=OIP.xJG7AMYi23nA89eeaBx7gAHaE8&pid=Api&P=0&h=180" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Aksay kumar <br> <span>India</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src="https://tse4.mm.bing.net/th?id=OIP.YyV27QlgLrmh7se_X7_66QHaE8&pid=Api&P=0&h=180" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Sharukh Khan <br> <span>India</span></h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60px">
+                                    <div class="imgBx"><img src="https://tse4.mm.bing.net/th?id=OIP.xJG7AMYi23nA89eeaBx7gAHaE8&pid=Api&P=0&h=180" alt=""></div>
+                                </td>
+                                <td>
+                                    <h4>Aksay kumar <br> <span>India</span></h4>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- ==============scripts=========== -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/product.js"></script>
+<!-- <script src="assets/js/hotel.js"></script> -->
+
+</body>
+</html>

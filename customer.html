@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon"><img src="https://wallpapers.com/images/hd/south-hero-portrait-shot-csf16krd3gvn9hv8.jpg" alt=""></span>
+                        <!-- <span class="title">Apple</span> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <span class="icon"><i class="fa-solid fa-house"></i></span>
+                        <span class="title">Dashbord</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-users"></i></span>
+                        <span class="title">Customer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./message.html">
+                        <span class="icon"><i class="fa-brands fa-rocketchat"></i></span>
+                        <span class="title">Message</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-question"></i></span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./history.html">
+                        <span class="icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                        <span class="title">History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./hotel.html">
+                        <span class="icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                        <span class="title">Hotel Reception</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./customer_history.html">
+                        <span class="icon"><i class="fa-solid fa-clock-rotate-left"></i></span>
+                        <span class="title">customer History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                        <span class="title">Password</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fa-solid fa-right-to-bracket"></i></span>
+                        <span class="title">Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ==============================order list============================= -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                </div>
+                <div class="user">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.Q99cciNfP5yyAjLxVVjSHAHaMo&pid=Api&P=0&h=180" alt="">
+                </div>
+            </div>
+             
+            <div><button onclick="addproduct()" style="margin-left: 925px; margin-top: 40px; background-color: red; color: white; border-radius: 5px;" >Add product</button></div>
+
+            <div class="form">
+                <form action="">
+                    <div><center><input type="text" placeholder="Enter your name" id="name"></center></div>
+                    <div><center><input type="text" placeholder="Enter mobile number" id="mobile"></center></div>
+                    <div><center><input type="text" placeholder="Enter email" id="email"></center></div>
+                    <div><center><input type="text" placeholder="Enter image" id="img"></center></div>
+                    <div><center><input type="text" placeholder="Etner status" id="status"></center></div>
+                    <div><center><button onclick="order()">submit</button></center></div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    
+    <div>
+        <div>
+            
+        </div>
+        <div>
+            <table width="50%" align="center" id="showdata" margin-left: 50px border="2px" style="position: absolute;z-index: 0;" cellspacing="10px" cellpadding="10px">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Hotel</th>
+                        <th>Mobile Number</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Room</th>
+                        <th>Price</th>
+                        <th>Adhar</th>
+                        <th>Image</th>
+                        <th>Delete</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+
+                
+            </table>
+        </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/customer.js"></script>
+</body>
+</html>

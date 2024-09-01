@@ -1,0 +1,53 @@
+.hotel .reception form{
+    width: 85vh;
+    height: 125vh;
+    border: 1px solid black;
+    box-shadow: 50% solid palevioletred;
+    margin-left: auto;
+    position: absolute;
+    margin-right: auto;
+    box-shadow: 0px 0px 40px chocolate;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-right: 40%;
+    background-color: black;
+    z-index: 10;
+
+    /* display: none; */
+}
+.hotel .reception div{
+    margin: 6%;
+}
+.hotel .reception input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.hotel .reception input::placeholder{
+    color: chocolate;
+}
+.hotel .reception button{
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid chocolate;
+    color: white;
+    background-color: black;
+}
+ .hotel .reception input:hover{
+    scale: 1.1;
+    transition: scale .2s;
+ }
+ .hotel.reception input:focus{
+    scale: 1.1.;
+    transition: scale .2s;
+ }
+ .hotel .reception button:hover{
+    scale: 1.1;
+    transition: scale .2s;
+ }
+ .hotel{
+    display: none;
+ }
